@@ -1,0 +1,16 @@
+#Embedded file name: e:\jenkins\workspace\client_SERENITY\branches\release\SERENITY\packages\fsd\schemas\predefinedStructTypes.py
+import struct
+uint64 = struct.Struct('Q')
+uint32 = struct.Struct('I')
+int32 = struct.Struct('i')
+keyedOffsetData = struct.Struct('ii')
+keyedOffsetDataWithSize = struct.Struct('iii')
+byte = struct.Struct('B')
+cfloat = struct.Struct('f')
+cdouble = struct.Struct('d')
+vector2_float = struct.Struct('ff')
+vector2_double = struct.Struct('dd')
+vector3_float = struct.Struct('fff')
+vector3_double = struct.Struct('ddd')
+vector4_float = struct.Struct('ffff')
+vector4_double = struct.Struct('dddd')
